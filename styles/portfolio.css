@@ -1,0 +1,8 @@
+/*nav*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+}
