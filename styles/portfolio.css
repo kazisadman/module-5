@@ -20,6 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 220px;
 }
 .nav-title {
   color: #181818;
@@ -49,10 +50,29 @@ nav a {
   line-height: normal;
 }
 
-/* nav button {
-  width: 150px;
-  height: 64px;
-  flex-shrink: 0;
-  border-radius: 5px;
-background: #FD6E0A;
-} */
+/* header */
+.header {
+  background: #fff8f3;
+}
+
+.banner {
+  padding: 0 40px 30px 230px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .profile-pic {
+  width: 584px;
+  height: 676px;
+}
+
+.banner-content .banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content .banner-title{
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+}
