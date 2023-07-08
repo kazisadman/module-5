@@ -154,7 +154,30 @@ main section {
 
 /* resume section */
 .resume-column-title {
-  color:  #474747;
+  color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  gap: 71px;
+}
+
+.resume-item-info {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume-item-des {
+  color:  #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.download-cv{
+  text-align: center;
+  margin-top: 60px;
 }
