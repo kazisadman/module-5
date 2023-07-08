@@ -119,7 +119,7 @@ main{
 
 /* about me */
 .about {
-  padding: 30px;
+  padding: 130px;
   border-radius: 10px;
   background: #fbd2b6;
   margin: 130px 0;
@@ -131,3 +131,6 @@ main{
   text-align: center;
 }
 
+#what-i-do-des{
+  padding: 30px 150px;
+}
