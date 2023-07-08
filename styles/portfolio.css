@@ -171,13 +171,48 @@ main section {
 }
 
 .resume-item-des {
-  color:  #757575;
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
 }
 
-.download-cv{
+.download-cv {
   text-align: center;
   margin-top: 60px;
+}
+
+/* footer style */
+
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 230px;
+  margin-top: 100px;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+.contact
+input[type='text'],.contact
+input[type='email'],
+textarea {
+  display: block;
+  width: 461px;
+  margin-bottom: 24px;
+  padding: 18px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+}
+
+textarea{
+  resize: none;
+}
+
+.socila-links a{
+  margin-right: 24px;
 }
